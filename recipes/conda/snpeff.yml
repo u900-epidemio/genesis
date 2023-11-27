@@ -1,0 +1,8 @@
+name: snpeff
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bioconda::snpeff=5.0=0
+  - bioconda::tabix=0.2.6=ha92aebf_0

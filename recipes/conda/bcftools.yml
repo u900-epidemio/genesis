@@ -1,0 +1,9 @@
+name: bcftools-1.15.1
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - conda-forge::libdeflate=1.17=h5eee18b_1
+  - bioconda::htslib=1.6=h42e7767_0
+  - bioconda::bcftools=1.6=0

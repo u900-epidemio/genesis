@@ -1,0 +1,8 @@
+name: bwa-0.7.17
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bioconda::bwa=0.7.17=h5bf99c6_8
+  - bioconda::1.5=1
+  - bioconda::gatk4=4.3.0.0=py36hdfd78af_0

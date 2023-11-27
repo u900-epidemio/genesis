@@ -1,0 +1,7 @@
+name: vcfanno-0.3.2
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bioconda::vcfanno=0.3.3=h9ee0642_0
