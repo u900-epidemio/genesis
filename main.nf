@@ -105,10 +105,10 @@ params.gnomad = params.genome ? params.genomes[ params.genome ].gnomad ?: false 
 params.dbNSFP = params.genome ? params.genomes[ params.genome ].dbNSFP ?: false : false
 
 
-GenePositionCh = params.genes_tumospec  ? Channel.fromPath(params.genes_tumospec, checkIfExists: true).collect() : Channel.empty()
+GenePositionCh = params.genes_genesis  ? Channel.fromPath(params.genes_genesis, checkIfExists: true).collect() : Channel.empty()
 VariantTypeCh = params.var_types  ? Channel.fromPath(params.var_types, checkIfExists: true).collect() : Channel.empty()
 SampleNameCh = params.samples_plan  ? Channel.fromPath(params.samples_plan, checkIfExists: true).collect() : Channel.empty()
-ExonCh = params.exons_tumospec  ? Channel.fromPath(params.exons_tumospec, checkIfExists: true).collect() : Channel.empty()
+ExonCh = params.exons_genesis  ? Channel.fromPath(params.exons_genesis, checkIfExists: true).collect() : Channel.empty()
 caddConfCh = params.cadd_conf  ? Channel.fromPath(params.cadd_conf, checkIfExists: true).collect() : Channel.empty()
 
 
